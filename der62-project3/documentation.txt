@@ -1,0 +1,19 @@
+My approach to this project was relatively simple. I created the driver program based around two priority heaps, one for the price and 
+one for the square footage. My run times were the same as what we discussed in class (lgN) for adding, removing, updating and returning the head of those two 
+heaps. It was slightly slower(linear instead of logarithmic) for returning from a given city. I had it almost working but ran low on time so had to implement
+it this way instead. My space requirements were a bit large at n^2 but without a huge amount of data this would not be a big deal. 
+
+Add - My add function works by finding the first open spot in the heap and putting the new value there. It then checks heap property and, if necessary, hashes
+it while swapping values. If no swap is necessary it gets hashed after the checkProperty call.
+
+Update - update is very simple. It gets the location in the heap from the hash value and just changes the price there.
+
+Delete - Delete is very similar to update except once it finds the value to get delted it swaps the last filled node into that location, sets the last filled
+location to null and rechecks property.
+
+hash - my hash method is done using horners hash of the address + aptNum.
+
+getLowest/getHighest - both of these methods simply return the head of the appropriate heap.
+
+getLowestCity/getHighestCity - both of these do a linear search of the heap to find the lowest rent or highest sqFT apt. They do a linear search due to 
+the fact that I was getting a weird bug and ran low on time trying to fix it so implemented it this way.

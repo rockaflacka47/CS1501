@@ -1,0 +1,10 @@
+Enter the number of what you would like to do: 
+1.  Print all direct routes
+2.  Display all single flight routes
+3.  Display the shortest route from one location to another
+4.  Display the lowest cost route from one location to another
+5.  Display the route with the least layovers from one location to another
+6.  Display all routes under a given price
+7.  Enter a new route
+8.  Remove a route
+9.  Exit the program

@@ -1,0 +1,56 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  David Rocker
+
+Lecture section: mo/we 9:30-10:45(W) 
+
+Recitation day and time:  fri 9:00
+
+Assignment #:  1
+
+Program due date:  9/30/16
+
+Handed in date:  9/30/16
+
+Source code file name(s):
+project1.java, Trie.java
+
+
+
+
+
+
+Other file name(s) (if relevant):
+
+
+
+
+
+
+
+Does your program run without error?: yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+n/a
+
+
+
+
+
+
+Additional comments to the grader: 
+	I do not have it returning the 10 closest passwords if an invalid password is entered.
+
+
+
+
+
+
+

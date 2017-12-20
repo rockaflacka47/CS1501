@@ -1,0 +1,2 @@
+I used a DLB for my symbol table because of the efficient searching. All that was necessary was adding one extra data element to the dlb in order to store the times to find each password. 
+For every character that is not the end of a word(the voidChar i choose) the data value is set to 0. 

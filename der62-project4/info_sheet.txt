@@ -1,0 +1,58 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  David Rocker
+
+Lecture section: MW 9:30-10:45
+
+Recitation day and time:  F 9-9:50
+
+Assignment #:  4
+
+Program due date:  11/18
+
+Handed in date:  11/18
+
+Source code file name(s):
+Airline.java, AdjList.java, Node.java, Edge.java, SPath.java, Queue.java
+
+
+
+
+
+
+Other file name(s) (if relevant):
+
+
+
+
+
+
+
+Does your program run without error?: Yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader:
+The shortest path based on number of hops does not work correclty. The path is found however it is not printed correctly cause of the way
+i set up my AdjList.
+The routes under a given price also do not work correclty. only some routes are printed and some are repeated.
+
+
+
+
+
+
+

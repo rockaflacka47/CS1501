@@ -1,0 +1,17 @@
+Passphrase 1 - SMrfeydtvAbVcBhOhVeoXAHsurjqcM
+Explanation 1 - this password was relatively easy to find following the GDB lab as well as through other methods. Through GDB I just found the first
+cmp command to find where values were being compared. When I went through the registers to see their value I saw the above long string of characters
+and tried that as the password and it worked. I also found this password through using the strings command where it was listed.
+
+Passphrase 2 - format - any character repeated 14 or more times
+Explanation 2 - this password was much much harder to figure out. It took me many hours of going through the GDB before I eventually found a loop loading 
+and comparing values. Once I found this loop it was not too difficult to find out what it was comparing thereby figuring out the password format. I
+tried many things to avoid having to step through the GDB such as running the strings command, valgrind, and even dumping the assembly to see if it was
+blantantly obvious code I just was missing on my first glance. Once I found no success in those other avenues I went back and went through the GDB.
+
+Passphrase 3 - any string of length 10(or greater however only the first 10 characters are checked) that contains exactly one 1,2,3,4 and no 5's. the
+other 6 characters do not matter.
+Explanation 3 - After trying and learning many thing I came to a dead end looking for this password. I ended up finding it by brute forcing it until I
+found the correct format. The things I learned include the differences between stripped and non-stripped files, many commands and much of their usage such
+as objdump, more uses of GDB as well as valgrind, a lot of x86 assembly instuctions, and just about the general frustration of trying to learn what to do 
+and how to go about it.
